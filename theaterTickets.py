@@ -14,7 +14,7 @@ while True: #main loop
     nxt=7
     for i in seating:
         pass
-    #unfinished
+    #unfinished. TODO: print an aesthetically pleasing seating chart
     print("")
     if seating==[[0]*8]*9: #if all seats are taken, exit
         print("Sorry, we're booked.")
