@@ -35,6 +35,3 @@ while True: #main loop
     seating[seatRow][seatCol]="00"
     print("Next in line, please!")
     continue
-
-
-    
