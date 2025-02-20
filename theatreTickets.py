@@ -10,11 +10,11 @@ seating=[ #prices of all 46 seats.
     [10, 10, 10, 10, 10, 10, 10, 10]]
 
 while True: #main loop
-    print("")
+    print(" ")
     itr=0
     for i in range(len(seating)):
         print("$",seating[i][0]," ","$",seating[i][1]," ","$",seating[i][2]," ","$",seating[i][3]," ","$",seating[i][4]," ","$",seating[i][5]," ","$",seating[i][6]," ","$",seating[i][7]," ",sep="")
-    print ("")
+    print (" ")
     if seating==[["X "]*8]*9: #if all seats are taken, exit
         print("Sorry, we're booked.")
         print("Have a nice day!")
